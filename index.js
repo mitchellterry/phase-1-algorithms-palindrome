@@ -1,8 +1,21 @@
 function isPalindrome(word) {
+
+  let reversed = word.split("").reverse().join("")
+  return word === reversed
   // Write your algorithm here
 }
+let word1 = "abba"
+let word2 = "racecar"
+let word3 = "a"
+let word4 = "robot"
+let word5 = "ab"
 
-/* 
+isPalindrome(word1)
+isPalindrome(word2)
+isPalindrome(word3)
+isPalindrome(word4)
+isPalindrome(word5)
+/*
   Add your pseudocode here
 */
 
